@@ -13,9 +13,21 @@ body {
     height: 100vh;
 }
 
+.titulo {
+    padding: 20px;
+    color: white;
+}
+
+
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.interface > .produtos-digitais {
+    padding: 10px;
 }
 
 .flex {
@@ -220,7 +232,7 @@ section.sobre .flex {
     line-height: 40px;
     margin-bottom: 30px;
 }
-
+*/
 .sobre .txt-sobre h2 span {
     color: #CF8B31;
     display: block;
@@ -255,7 +267,12 @@ section.sobre .flex {
     transition: 2s;
     justify-content: space-around;
     margin-left: 200px;
-} */
+}
+
+.texto-plastico {
+    color: #CF8B31;
+    display: inline-block;
+}
 
 /* ESTILO DO PORTIFÓLIO */
 /* 
